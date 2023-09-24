@@ -6,8 +6,13 @@ import org.openqa.selenium.WebElement;
 
 public class HomeElements {
 
-    public static WebElement getLogoImge() {
-        return Setup.driver.findElement(By.cssSelector(".navbar-brand > img"));
+
+    public static WebElement imgTest() {
+        return Setup.driver.findElement(By.xpath("/html/body/footer/div[1]/div/div/div[2]/div/div[2]/imgaa"));
+    }
+
+    public static WebElement subscribeButton() {
+        return Setup.driver.findElement(By.xpath("//*[@id=\"mc4wp-form-2\"]/div[1]/div/inaaput[2]"));
     }
 
     public static WebElement heroSection() {
@@ -54,6 +59,10 @@ public class HomeElements {
     public static WebElement footerSection() {
         return Setup.driver.findElement(By.cssSelector(".footer-top"));
     }
+
+
+
+
 
 
 }

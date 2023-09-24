@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Practice Suite">
+    <listeners>
+        <listener class-name="Setting.TestListener"/>
+    </listeners>
+
+    <test name="HomePageTests">
+        <classes>
+            <class name="HomePageTests.HomePage"/>
+        </classes>
+    </test>
+    <test name="SpecialistsPageTests">
+        <classes>
+            <class name="SpecialistsPageTests.SpecialistsPage"/>
+        </classes>
+    </test><!-- Test -->
+</suite> <!-- Suite -->

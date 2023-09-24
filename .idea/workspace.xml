@@ -4,17 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3b98bd9-0876-4897-834c-782f059a5922" name="Changes" comment="install dependencies">
-      <change afterPath="$PROJECT_DIR$/.idea/copyright/Mohammed_Sammour.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/min.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HomePageTests/HomeElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HomePageTests/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e3b98bd9-0876-4897-834c-782f059a5922" name="Changes" comment="HomePage">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Setting/TestListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SpecialistsPageTests/SpecialistsElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SpecialistsPageTests/SpecialistsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/homePageTest/homePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Setting/Setup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/min.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/min.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HomePageTests/HomeElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomePageTests/HomeElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HomePageTests/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomePageTests/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Setting/Setup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Setting/Setup.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,39 +34,51 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2VCkepRILeib4EYfVXbxsXEkAk7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/lenovo/Desktop/pro/AutomationFrameworkSelenium-main",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lenovo\Desktop\pro\GSG-QA-Selenium-Automation-project_1" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.HomePage.verifyThatNewsletterSectionIsDisplayed">
-    <configuration name="min" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.min" />
+  <component name="RunManager" selected="JavaScript Debug.report.html">
+    <configuration name="report.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/GSG-QA-Selenium-Automation-project_1/report.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="C:/Users/lenovo/Desktop/pro/GSG-QA-Selenium-Automation-project_1/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="GSG-QA-Selenium-Automation-project_1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -75,11 +87,11 @@
       <module name="GSG-QA-Selenium-Automation-project_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="HomePageTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="homePageTest" />
+      <option name="PACKAGE_NAME" value="HomePageTests" />
       <option name="MAIN_CLASS_NAME" value="HomePageTests.HomePage" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
@@ -88,53 +100,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomePage.testAll" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SpecialistsPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="GSG-QA-Selenium-Automation-project_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HomePageTests.*" />
+          <option name="PATTERN" value="SpecialistsPageTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="HomePageTests" />
-      <option name="MAIN_CLASS_NAME" value="HomePageTests.HomePage" />
-      <option name="METHOD_NAME" value="testAll" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HomePage.verifyThatNewsletterSectionIsDisplayed" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="GSG-QA-Selenium-Automation-project_1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HomePageTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="HomePageTests" />
-      <option name="MAIN_CLASS_NAME" value="HomePageTests.HomePage" />
-      <option name="METHOD_NAME" value="verifyThatNewsletterSectionIsDisplayed" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Setup" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="GSG-QA-Selenium-Automation-project_1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Setting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Setting" />
-      <option name="MAIN_CLASS_NAME" value="Setting.Setup" />
+      <option name="PACKAGE_NAME" value="SpecialistsPageTests" />
+      <option name="MAIN_CLASS_NAME" value="SpecialistsPageTests.SpecialistsPage" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpecialistsPage.TC9_verifyThatViewProfielAfterSerch" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="GSG-QA-Selenium-Automation-project_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SpecialistsPageTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SpecialistsPageTests" />
+      <option name="MAIN_CLASS_NAME" value="SpecialistsPageTests.SpecialistsPage" />
+      <option name="METHOD_NAME" value="TC9_verifyThatViewProfielAfterSerch" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -143,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.HomePage.verifyThatNewsletterSectionIsDisplayed" />
+        <item itemvalue="JavaScript Debug.report.html" />
+        <item itemvalue="TestNG.C:/Users/lenovo/Desktop/pro/GSG-QA-Selenium-Automation-project_1/testng.xml" />
         <item itemvalue="TestNG.HomePage" />
-        <item itemvalue="Application.min" />
-        <item itemvalue="TestNG.Setup" />
-        <item itemvalue="TestNG.HomePage.testAll" />
+        <item itemvalue="TestNG.SpecialistsPage" />
+        <item itemvalue="TestNG.SpecialistsPage.TC9_verifyThatViewProfielAfterSerch" />
       </list>
     </recent_temporary>
   </component>
@@ -164,6 +158,11 @@
       <workItem from="1694425977442" duration="4601000" />
       <workItem from="1694442615770" duration="659000" />
       <workItem from="1694504664336" duration="6123000" />
+      <workItem from="1694516906216" duration="9681000" />
+      <workItem from="1695491811018" duration="122000" />
+      <workItem from="1695495504576" duration="3398000" />
+      <workItem from="1695523255529" duration="11201000" />
+      <workItem from="1695546698972" duration="1985000" />
     </task>
     <task id="LOCAL-00001" summary="new2">
       <created>1694347940196</created>
@@ -186,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694348726780</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="HomePage">
+      <created>1694517115593</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694517115593</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +213,7 @@
     <MESSAGE value="new2" />
     <MESSAGE value="new_2" />
     <MESSAGE value="install dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="install dependencies" />
+    <MESSAGE value="HomePage" />
+    <option name="LAST_COMMIT_MESSAGE" value="HomePage" />
   </component>
 </project>

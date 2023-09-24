@@ -1,13 +1,17 @@
 package HomePageTests;
 
 import Setting.Setup;
+import Setting.TestListener;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 
+@Listeners(TestListener.class)
 public class HomePage {
-
     @BeforeClass
     public void initialize() {
         Setup.setup("https://famcare.app/");
@@ -15,7 +19,6 @@ public class HomePage {
 
     @Test(priority = 1)
     public void verifyThatHeroSectionIsDisplayed() {
-
         Assert.assertTrue(HomeElements.heroSection().isDisplayed());
     }
 
@@ -61,8 +64,13 @@ public class HomePage {
 
     @Test(priority = 11)
     public void verifyThatAcademyButtonIsDisplayed() {
+        Setup.wait.until(ExpectedConditions.elementToBeClickable(HomeElements.academyButton()));
         Assert.assertTrue(HomeElements.academyButton().isDisplayed());
     }
 
+    @AfterClass
+    void tearDown() {
+        Setup.driver.quit();
+    }
 
 }
